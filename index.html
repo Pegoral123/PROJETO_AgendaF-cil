@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agendamento de Consultas</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>Agendamento de Consultas</header>
+
+    <div class="container">
+      <h1>Marque sua Consulta</h1>
+
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputName" class="form-label">Nome</label>
+          <input type="Name" class="form-control" id="NameUser" />
+        </div>
+        <div class="mb-1">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Senha</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="date">Data da Consulta:</label>
+          <input type="date" id="date" class="form-control" name="date" />
+        </div>
+        <div class="mb-3">
+          <label for="time">Horário da Consulta:</label>
+          <input type="time" id="time" class="form-control" name="time" />
+        </div>
+        </div>
+        <div class="mb-3 form-check"></div>
+        <button type="submit" class="button">Concluir</button>
+      </form>
+
+      <div class="appointments">
+        <h2>Próximas Consultas</h2>
+        <ul>
+          <li>Consulta com Dr. Silva - 20/10/2024 às 10:30</li>
+          <li>Consulta com Dra. Santos - 22/10/2024 às 14:00</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

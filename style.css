@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3a86ff;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 10px 0 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="time"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+button {
+  padding: 15px;
+  font-size: 18px;
+  background-color: #1d920e;
+  color: rgb(24, 16, 16);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.calendar {
+  margin-top: 20px;
+}
+
+.appointments {
+  margin-top: 30px;
+}
+
+.appointments ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.appointments li {
+  padding: 10px;
+  background-color: #f0f0f5;
+  border: 1px solid #ddd;
+  margin: 5px 0;
+  border-radius: 4px;
+}
