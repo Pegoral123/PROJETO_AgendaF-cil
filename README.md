@@ -1,4 +1,4 @@
-# PROJETO_AgendaF-cil
+# PROJETO_AgendaFacil
 
 ## Integrantes da equipe
 - Jhonathan da Silva Pegoral
