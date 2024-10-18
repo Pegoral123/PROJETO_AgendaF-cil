@@ -22,7 +22,7 @@ Para executar este MVP em sua máquina local, siga os passos abaixo:
 2. **Passos para execução**:
    - Faça o download ou clone o repositório GitHub:
      ```bash
-     git clone https://github.com/PROJETO_AgendaF-cil/aqui.git
+     git remote add origin https://github.com/Pegoral123/PROJETO_AgendaFacil.git
      ```
    - Navegue até o diretório do projeto:
      ```bash
